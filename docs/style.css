@@ -1,0 +1,90 @@
+@charset utf-8;
+
+body {
+  font-family: sans-serif;
+}
+
+.menu {
+  font-size: 2rem;
+  margin: 20px auto 0;
+  text-align: center;
+  width: 350px;
+}
+
+.play {
+  font-size: 1.5rem;
+  height: 50px;
+  margin: 50px;
+  width: 200px;
+}
+
+.countdown {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.keyboard {
+  height: 200px;
+  position: relative;
+  margin: 40px auto 0;
+  width: 483px;
+}
+
+.keyboard .key {
+  border: 1px solid #DDD;
+  box-sizing: border-box;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 12px 0px #DDD;
+  padding: 160px 0 20px;
+  position: absolute;
+  text-align: center;
+  width: 70px;
+}
+
+.keyboard .key-active {
+  background: #EEE;
+  box-shadow: 0 14px 0px #EEE;
+  border: 0;
+}
+
+.keyboard .accidentals .key {
+  background: #555;
+  border: 0;
+  box-shadow: 0 12px 0px #333;
+  color: #FFF;
+  padding: 90px 0 20px;
+  width: 60px;
+}
+
+.keyboard .accidentals .key-active {
+  background: #333;
+}
+
+.keyboard .key.key-D♭ { left:  39px }
+.keyboard .key.key-D  { left:  69px }
+.keyboard .key.key-E♭ { left: 108px }
+.keyboard .key.key-E  { left: 138px }
+.keyboard .key.key-F  { left: 207px }
+.keyboard .key.key-G♭ { left: 246px }
+.keyboard .key.key-G  { left: 276px }
+.keyboard .key.key-A♭ { left: 315px }
+.keyboard .key.key-A  { left: 345px }
+.keyboard .key.key-B♭ { left: 384px }
+.keyboard .key.key-B  { left: 414px }
+
+.instruction {
+  margin: 40px 0 10px;
+  text-align: center;
+}
+
+.result {
+  font-weight: bold;
+  text-align: center;
+}
+
+.result.correct { color: #292 }
+.result.incorrect { color: #C33 }
+
+.current-score {
+  text-align: center;
+}
