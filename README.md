@@ -17,4 +17,4 @@ This little tool is meant to help you practise these by setting up a
 three-minute quiz. There's a high score and everything, so you _know_ it's
 good.
 
-[Try it now!](tomharding.me/minim
+[Try it now!](tomharding.me/minim)
