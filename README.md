@@ -25,4 +25,4 @@ press. They're laid out like the piano, as best as I could.
 Pressing a key will **toggle** it - pressing and holding confuses my bad code.
 When you think you have the answer, press **enter** to get the next test.
 
-[Try it now!](tomharding.me/minim)
+[Try it now!](http://tomharding.me/minim)
